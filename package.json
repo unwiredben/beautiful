@@ -1,0 +1,43 @@
+{
+    "author": "Ben Combee",
+    "dependencies": {
+        "pebble-events": "^1.1.0",
+        "img-dl-for-pebble": "file:../img-dl-for-pebble" 
+    },
+    "name": "beautiful",
+    "keywords": [
+      "pebble-app"
+    ],
+    "private": true,
+    "license": "MIT",
+    "repository": "unwiredben/beautiful",
+    "pebble": {
+        "displayName": "Beautiful",
+        "enableMultiJS": true,
+        "projectType": "native",
+        "capabilities": [
+          ""
+        ],
+        "messageKeys": {},
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "APPICON",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "ff453749-e34b-43db-9f31-7bd7af10e11b",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
